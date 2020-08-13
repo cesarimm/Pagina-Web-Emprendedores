@@ -89,3 +89,27 @@ header .imagen img {
   margin-top: 20px;
   display: inline-block;
 }
+
+.dominios{
+	display: flex;
+}
+
+.dominios li{
+	list-style: none;
+	margin: 0 20px;
+}
+
+span.punto{
+	color: #1776FF;
+	margin: 0 5px;
+}
+
+span.nombrePaquete{
+	color: #000;
+	font-size: 24px;
+	font-weight: bold;
+}
+span.precioPaquete{
+	color: #999;
+	font-size: 14px;
+}
