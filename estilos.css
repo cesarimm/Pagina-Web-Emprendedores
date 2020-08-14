@@ -137,7 +137,7 @@ span.precioPaquete{
 	padding: 20px 30px; 
 }
 
-#services h2{
+#services h2, #pricing h2, #registro h2{
 	font-family: 'Rubik';
 	font-weight: 500;
 	text-transform: uppercase;
@@ -146,7 +146,7 @@ span.precioPaquete{
 	letter-spacing: 1px;
 }
 
-#services h3{
+#services h3, #pricing h3, #registro h{
 	font-weight: 500;
 	font-size: 38px;
 }
@@ -192,12 +192,12 @@ span.precioPaquete{
 	padding-top: 90px;
 }
 
-#pricing h2, #princing h3{
+#pricing h2, #princing h3, #registro h2, #registro h3{
 	text-align: center;
 	margin: 0; 
 }
 
-#pricing h3{
+#pricing h3, #registro h3{
 	font-weight: bold;
 }
 
@@ -305,4 +305,70 @@ span.precioPaquete{
   left: 0;
   width: 100%;
   border-color: #2423230d;
+}
+
+/*Cotización*/
+#registro{
+	padding-top: 90px;
+	padding-bottom: 90PX;
+}
+
+#registro form{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 77%;
+  margin: auto;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="submit"]{
+  width: 49%;
+  margin-bottom: 18px;
+  padding: 18px 0;
+  border: 0;
+  border-bottom: 1px solid #5cb8ff;
+  font-size: 17px;
+}
+
+textarea{
+  padding: 18px 0;
+  border: 0;
+  border-bottom: 1px solid #5cb8ff;
+  font-size: 17px;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+#registro input[type="button"], input[type="submit"]{
+  width: 166px;
+  margin: auto;
+}
+
+/*footer*/
+footer{
+  background: #2f2f2f;
+  padding: 40px 0;
+  text-align: center;
+}
+
+footer .contenedor{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+footer img{
+  margin: 0 40px;
+  transform: rotate(0);
+  transition: 0.4s;
+}
+
+footer img:hover{
+  transform: rotate(360deg);
+  transition: 0.4s;
+}
+
+footer p{
+  color: #fff;
+  margin-top: 40px;
 }

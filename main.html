@@ -5,7 +5,9 @@
 	<title>Compañia de internet</title>
 	<link rel="stylesheet" type="text/css" href="estilos.css">
 	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-	  <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+	<script src="jquery-3.3.1.js"></script>
+	<script src="cotizacion.js"></script>
 </head>
 <body>
 
@@ -144,9 +146,32 @@
       </div>
       </section>
 
+	  <section id="registro">
+		  <div class="contenedor">
+		  	<h2>Cotización</h2>
+      		<h3>Solicita tú cotización aquí!!!</h3>
+		    <form enctype="multipart/form-data">
+		     <input type="text" name="nombre" id="nombre" value="" placeholder="Nombre" required>
+		     <input type="email" name="email" id="email" value="" placeholder="email" required>
+		     <input type="text" name="estado" id="estado" value="" placeholder="Estado de origen" required>
+		     <input type="text" name="telefono" id="telefono" value="" placeholder="Telefono" required>
+		     <input class="boton" type="button" name="btnEnviar" id="btnEnviar" value="SOLICITAR"  onclick="guardar()">
+		    </form>
+		  </div>
+	</section>
 	</main>
 
-	<footer>	
+	<footer>
+		  <div class="contenedor">
+    <div class="redes">
+      <a href="#"><img src="imagenes/gmail.png"></a>
+      <a href="#"><img src="imagenes/face.png"></a>
+      <a href="#"><img src="imagenes/wsp.png"></a>
+    </div>
+    <div class="parrafo">
+          <p>2020 César Iván Martínez. Casa del Emprendedor</p>
+    </div>
+  </div>
 	</footer>
 
 </body>
