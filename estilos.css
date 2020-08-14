@@ -113,3 +113,196 @@ span.precioPaquete{
 	color: #999;
 	font-size: 14px;
 }
+
+/*Servicios*/
+
+#services{
+	padding-top: 120px;
+}
+
+#services .contenedor{
+	display: flex;
+	justify-content: space-around;
+}
+
+#services .titular{
+	width: 49%;
+}
+
+#services .service{
+	width: 25%;
+	background-color: #ffffff;
+	border-radius: 24px 24px 24px 24px;
+	box-shadow: 0px 90px 100px 0px rgba(0,0,0,0.06);
+	padding: 20px 30px; 
+}
+
+#services h2{
+	font-family: 'Rubik';
+	font-weight: 500;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #ff8f00!important;
+	letter-spacing: 1px;
+}
+
+#services h3{
+	font-weight: 500;
+	font-size: 38px;
+}
+
+#services .boton{
+	background: #2970fa;
+	padding: 15px 38px;
+	letter-spacing: 1px;
+}
+
+.service h4{
+	font-size: 23px;
+	font-weight: normal;
+	font-family: 'Rubik';
+}
+
+.service p{
+	color: #787878;
+	line-height: 32px;
+	font-size: 15px;
+}
+
+.service a {
+	color: #2970fa;
+	text-decoration: none;
+	font-family: 'Rubik';
+	letter-spacing: 1px;
+	font-size: 13px;
+}
+
+.contenedorServices2{
+	margin-top: 60px;
+}
+
+.contenedorServices2 #tres{
+	position: relative;
+	top: -250px;
+	margin-right: 50px;
+}
+
+/*Paquetes*/
+#pricing{
+	padding-top: 90px;
+}
+
+#pricing h2, #princing h3{
+	text-align: center;
+	margin: 0; 
+}
+
+#pricing h3{
+	font-weight: bold;
+}
+
+.contenedorPrecios{
+	display: flex;
+	justify-content: space-around;
+}
+
+#pricing .tabla{
+	background: #fff;
+	border-radius: 24px;
+	box-shadow: 0px 90px 160px 0px rgba(0,0,0,0.1);
+	padding: 20px 59px;
+}
+
+#pricin ul{
+	padding: 0;
+}
+
+#pricing .tabla li:nth-child(1){
+  font-family: 'Rubik';
+  color: #ff8f00;
+  list-style: none;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: -21px;
+}
+
+#pricing .tabla .dolar {
+  position: absolute;
+  color: #999;
+  font-size: 18px;
+}
+
+#pricing .tabla .numero {
+  font-family: 'Rubik';
+  font-weight: bold;
+  font-size: 50px;
+  margin-left: 14px;
+}
+
+#pricing .mes {
+  color: #999;
+}
+
+#pricing .tabla li:nth-child(2) {
+  list-style: none;
+  margin-bottom: 48px;
+  margin-left: -21px;
+}
+
+
+#pricing .item {
+  color: #ff8f00;
+  margin-bottom: 27px;
+}
+
+#pricing #two .item {
+  color: #296FFA;
+}
+
+#pricing .item span {
+  color: #666;
+}
+
+#pricing #three .item {
+  color: #2ACF8D;
+}
+
+#pricing #one a {
+  color: #ff8f00;
+  background: rgba(255,143,0,0.1);
+}
+
+#pricing #two li:nth-child(1) {
+  color: #296FFA;
+}
+
+#pricing #three li:nth-child(1) {
+  color: #2ACF8D;
+}
+
+#pricing #three a {
+  color: #29cf8d;
+  background: rgba(41,207,141,0.1)
+}
+
+#pricing #two a {
+  color: #fff;
+  background: #296FFA;
+}
+
+#pricing .hidden {
+  color: #ccc;
+}
+
+#pricing .tabla {
+  position: relative;
+}
+
+#pricing hr {
+  position: absolute;
+  top: 150px;
+  left: 0;
+  width: 100%;
+  border-color: #2423230d;
+}
